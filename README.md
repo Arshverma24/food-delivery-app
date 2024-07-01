@@ -20,7 +20,8 @@ This project is built using the MERN (MongoDB, Express.js, React.js, Node.js) st
 - ## University Roll No.: 22015002673
 
 - ## github link:
-- https://github.com/Arshverma24 
+- https://github.com/Arshverma24
+- https://github.com/manyashykla08
 
 LinkedIn:
 - Arsh Verma: [LinkedIn Profile](https://www.linkedin.com/in/arsh-verma-0bb172316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
@@ -35,7 +36,7 @@ LinkedIn:
 
 ## Features
 - User authentication using JWT
-- [Add more features here]
+  
 
 ## Installation
 1. Clone the repository.
