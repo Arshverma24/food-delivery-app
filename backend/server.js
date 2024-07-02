@@ -6,11 +6,11 @@ import userRouter from "./routes/userRoute.js"
 import 'dotenv/config'
 import cartRouter from "./routes/cartRoute.js"
 import orderRouter from "./routes/orderRoute.js"
-import path from 'path'
+
 
 // app config
 const app = express()
-const port = 4000
+const port = process.env.PORT || 4000;
 
 // middleware
 app.use(express.json())
@@ -18,17 +18,15 @@ app.use(cors())
 
 // db connection 
 connectDB();
-const __dirname =path.resolve()
+
 // api endpoints
 app.use("/api/food",foodRouter)
 app.use("/images",express.static('uploads'))
 app.use("/api/user",userRouter)
 app.use("/api/cart",cartRouter)
 app.use("/api/order",orderRouter)
-app.use(express.static (path.join(__dirname,'/admin/dist')))
-app.get("*",(req, res)=>{
-    res.sendFile(path.join(__dirname, 'admin', 'dist', 'index.html'))
-})
+
+
 
 
 app.get("/",(req,res)=>{
@@ -39,4 +37,4 @@ app.listen(port,()=>{
     console.log(`Server Started on http://localhost:${port}`)
 })
 
-// mongodb://localhost:27017/
+// mongodb+srv://arshverma:arsh552004@cluster0.bkjejiv.mongodb.net/?
