@@ -15,11 +15,9 @@ Foodify is a food delivery app built using the MERN (MongoDB, Express.js, React.
 
 ## Authors
 - Arsh Verma
-- ## Class Roll No.: 6
-- Section: C
+- ## Class Roll No.: 6, Section: C
 - Manya Shukla
-- ## Class Roll No.: 79
-- Section: D
+- ## Class Roll No.: 79, Section: D
 
 - ## github link:
 - https://github.com/Arshverma24
